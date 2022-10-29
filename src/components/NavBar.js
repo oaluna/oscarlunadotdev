@@ -17,7 +17,7 @@ const NavBar = () => {
               id="OscarLunaDotDev"
               aria-label="OscarLunaDotDev logo"
               aria-current="page"
-              className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
+              className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
               href="/"
             >
               <img
@@ -58,7 +58,7 @@ const NavBar = () => {
             <ul
               role="menubar"
               aria-label="Select page"
-              className={`absolute top-0 left-0 z-0 h-[28.5rem] w-full h-screen justify-center overflow-hidden  overflow-y-auto overscroll-contain px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
+              className={`absolute top-0 left-0 z-0 h-[28.5rem] w-full h-screen justify-center overflow-hidden overflow-y-auto overscroll-contain px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
                 isToggleOpen
                   ? "visible opacity-100 backdrop-blur-lg"
                   : "invisible opacity-0"
@@ -69,7 +69,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#hero"
                 >
                   <span className="mix-blend-color-burn">Home</span>
@@ -81,7 +81,7 @@ const NavBar = () => {
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#about"
                 >
                   <span className="mix-blend-color-burn">About</span>
@@ -92,7 +92,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#experience"
                 >
                   <span className="mix-blend-color-burn">Experience</span>
@@ -103,7 +103,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#skills"
                 >
                   <span className="mix-blend-color-burn">Skills</span>
@@ -114,7 +114,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#projects"
                 >
                   <span className="mix-blend-color-burn">Projects</span>
@@ -125,7 +125,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#testimonials"
                 >
                   <span className="mix-blend-color-burn">Testimonials</span>
@@ -136,7 +136,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#blog"
                 >
                   <span className="mix-blend-color-burn">Blog</span>
@@ -147,7 +147,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#contact"
                 >
                   <span className="mix-blend-color-burn">Contact</span>

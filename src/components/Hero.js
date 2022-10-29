@@ -4,9 +4,9 @@ const Hero = () => (
   <>
    <DotsGrid/>
     <section className="section snap-start" id="home">
-      <div className="container px-1 lg:px-6 md:pt-0 md:pb-32 lg:pb-32 m-auto z-0">
-        <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-0 md:grid-cols-8 md:items-center lg:grid-cols-12">
-          <div className="col-span-4 lg:col-span-7 p-0 md:p-8 lg:pl-24 z-[-1]">
+      <div className="container px-1 lg:px-6 md:pt-0 md:pb-32 lg:pb-32 m-auto z-0 min-h-screen">
+        <div className="flex flex-col md:grid md:grid-cols-6 gap-0 md:grid-cols-10 md:items-center lg:grid-cols-12">
+          <div className="col-span-4 md:col-span-3 lg:col-span-7 p-0 md:p-8 lg:pl-24 z-[-1]">
             {" "}
             <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tighter leading-none text-slate-900">
               Oscar Armando Luna
@@ -25,7 +25,7 @@ const Hero = () => (
               </a>
             </div>
           </div>
-          <div className="col-span-4 p-0">
+          <div className="col-span-4 md:col-span-3 p-0 m-0">
             {" "}
             <img
               src="https://res.cloudinary.com/dgdnpkfun/image/upload/v1666561255/removal.ai__tmp-6355b4b13902e_D8T3I5_chyzwv.png"
