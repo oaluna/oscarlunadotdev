@@ -3,9 +3,8 @@ import AltLogo from "./AltLogo";
 import { EXPERIENCE_DATA } from "../data/experienceData";
 
 const Experience = () => (
-  <section id="experience">
- 
-    <div className="container px-1 px-6 py-32 m-auto">
+  <section className="section snap-start" id="experience">
+    <div className="container  px-1 px-6 py-32 m-auto">
       <div className="grid grid-cols-4 gap-8 md:grid-cols-8 lg:grid-cols-12">
         <div className="col-span-4 md:col-span-8 lg:col-span-12">
           <h5 className="sub_title uppercase text-slate-900">

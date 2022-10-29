@@ -3,8 +3,8 @@ import React from "react";
 function Stack() {
   return (
     <>
-      <section>
-        <div className="container px-1 lg:px-6 pb-32  m-auto">
+      <section className="section snap-start">
+        <div className="container  px-1 lg:px-6 pb-32  m-auto">
           <p className="py-4 text-sm font-thin text-slate-700">
             The web technologies I work with:
           </p>
@@ -61,7 +61,7 @@ function Stack() {
         </div>
       </section>
       {/* <section id="services" className="services_area pt-120 pb-120">
-        <div className="container">
+        <div className="container snap-always snap-start">
           <div className="flex flex-row flex-wrap">
             <div className="services_content mt-5 xl:mt-10">
               <div className="text-zinc-100 w-full md:w-1/2 lg:w-screen flex flex-wrap lg:justify-evenly gap-8 md:gap-4 lg:gap-1 mx-auto md:lg:mr-64 xl:mr-48 my-24">

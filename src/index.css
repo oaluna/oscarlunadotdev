@@ -1,15 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap");
-
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
-
 html {
   scroll-behavior: smooth;
 }
-
 body {
   font-family: "Nunito", sans-serif;
   background: linear-gradient(230deg, #fdfbfb, #ebedee);
@@ -18,61 +13,35 @@ body {
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
+  max-width: 100vw;
+  
   color: white !important;
-}
 
+}
 @keyframes fadeInUp {
-  from {
+  0% {
     opacity: 0;
     transform: translate3d(0, 100%, 0);
   }
-
-  to {
+  50% {
+    opacity: 0.5;
+    transform: translate3d(0, 50%, 0);
+  }
+100% {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
 }
 
-.fadeInUp {
-  animation-name: fadeInUp;
+section.section {
+  padding: 0;
+  animation: fadeInUp 0.5s ease-in;
 }
-
-section {
-  padding: 0 10vw;
-  animation: fadeInUp 2s ease-in-out;
-}
-
 canvas {
   z-index: -1;
   position: absolute;
+  overflow:hidden;
 }
-
-
-*:focus,
-button:focus {
-@media (min-width: theme("screens.sm")) {
-  @apply outline-none shadow-none !important;
-}
-outline-offset: none;
-outline: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
-@media (min-width: theme("screens.sm")) {
-  @apply font-bold m-0 text-black !important;
-}
-}
-
 h1 {
   font-size: 45px;
 }
@@ -91,14 +60,4 @@ h5 {
 h6 {
   font-size: 16px;
 }
-a,
-button {
-  background-color: linear-gradient(246deg,
-          rgb(166, 166, 222),
-          rgb(237, 144, 207)
-          rgb(79, 230, 241),
-  );
-@media (min-width: theme("screens.sm")) {
-  @apply transition-all duration-300 !important;
-}
-}
+

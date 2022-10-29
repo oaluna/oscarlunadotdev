@@ -1,7 +1,7 @@
 import React from "react";
 function About() {
   return (
-    <section>
+    <section className="section" id="about">
       <div className="container px-1 lg:px-6 py-24 lg:py-32 m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 lg:col-span-7">

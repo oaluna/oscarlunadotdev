@@ -1,12 +1,12 @@
 import React from "react";
-import DotsGrid from "./DotsGrid";
+import DotsGrid from "./DotsGrid"
 const Hero = () => (
   <>
-    <section id="#">
-      <DotsGrid />
-      <div className="container px-1 lg:px-6 md:pt-0 md:pb-32 lg:pt-24 lg:pb-32 m-auto z-0">
+   <DotsGrid/>
+    <section className="section snap-start" id="home">
+      <div className="container px-1 lg:px-6 md:pt-0 md:pb-32 lg:pb-32 m-auto z-0">
         <div className="flex flex-col-reverse md:grid md:grid-cols-4 gap-0 md:grid-cols-8 md:items-center lg:grid-cols-12">
-          <div className="col-span-4 lg:col-span-8 p-0 md:p-8 lg:pl-24 lg:pt-20 z-[-1]">
+          <div className="col-span-4 lg:col-span-7 p-0 md:p-8 lg:pl-24 z-[-1]">
             {" "}
             <h1 className="text-4xl lg:text-6xl font-extrabold tracking-tighter leading-none text-slate-900">
               Oscar Armando Luna

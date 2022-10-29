@@ -1,11 +1,10 @@
 import React from "react";
 import Logo from "./Logo";
-import Contact from "./Contact";
 
 function Footer() {
   return (
     <section className="bg-transparent body-font h-auto">
-      <div className="container flex flex-col md:flex-row items-center px-8 pt-44 mx-auto max-w-6xl">
+      <div className="container  flex flex-col md:flex-row items-center px-8 pt-44 mx-auto max-w-6xl">
         <a href="#_" className="text-lg p-1">
           <Logo />
         </a>

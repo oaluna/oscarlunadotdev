@@ -3,8 +3,8 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <section>
-      <div className="container px-6 py-32 m-auto">
+    <section className="section snap-start" id="testimonials">
+      <div className="container  px-6 py-32 m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 md:col-span-8 lg:col-span-12">
             <h5 className="sub_title uppercase text-slate-900">Testimonials</h5>
@@ -21,7 +21,7 @@ function Testimonials() {
             </h3>
           </div>
         </div>
-   
+
         <div className="overflow-hidden rounded shadow-2xl bg-slate-500 text-slate-100 shadow-zinc-200">
           <div className="relative p-6">
             <figure className="relative z-10">
@@ -34,9 +34,7 @@ function Testimonials() {
                 <div className="flex flex-col gap-1">
                   <span className="font-bold uppercase">Matt Fox</span>
                   <cite className="not-italic">
-                    <a href="http://www.george-orwell.org/1984/0.html">
-                      UpWork
-                    </a>
+                    <a href="https://upwork.com">UpWork</a>
                   </cite>
                 </div>
               </figcaption>

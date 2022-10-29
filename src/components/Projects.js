@@ -4,8 +4,8 @@ import PROJECT_DATA from "../data/projectData";
 function Projects() {
   return (
     <>
-      <section id="projects">
-        <div className="container px-1 lg:px-6 py-32 m-auto">
+      <section className="section snap-start" id="projects">
+        <div className="container  px-1 lg:px-6 py-32 m-auto">
           <div className="grid grid-cols-4 gap-8 md:grid-cols-8 lg:grid-cols-12">
             <div className="col-span-4 md:col-span-8 lg:col-span-12">
               <h5 className="sub_title uppercase text-slate-900">Projects</h5>
@@ -14,17 +14,13 @@ function Projects() {
               </h3>
             </div>
           </div>
-        
+
           <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
             {PROJECT_DATA.map((project) => (
               <div className="col-span-4">
                 <div className="overflow-hidden bg-zinc-200 rounded shadow-md shadow-zinc-900/20 h-full">
                   <figure>
-                    <img
-                      src={project.image}
-                      alt="card image"
-                      className="p-0 m-0"
-                    />
+                    <img src={project.image} alt="card" className="p-0 m-0" />
                   </figure>
                   {/*  <!-- Body--> */}
                   <div className="p-6">

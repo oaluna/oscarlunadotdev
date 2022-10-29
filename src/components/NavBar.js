@@ -70,7 +70,7 @@ const NavBar = () => {
                   aria-haspopup="false"
                   tabIndex="0"
                   className="flex items-center gap-2  hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent   lg:px-8"
-                  href="#"
+                  href="#hero"
                 >
                   <span className="mix-blend-color-burn">Home</span>
                 </a>
