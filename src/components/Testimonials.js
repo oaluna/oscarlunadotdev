@@ -1,5 +1,4 @@
 import React from "react";
-//import Auth from 'upwork-api/lib/routers/auth'
 
 function Testimonials() {
   return (
