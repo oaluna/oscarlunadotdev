@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&family=Nunito+Sans&family=Pridi:wght@300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,7 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Nunito", sans-serif;
   background: linear-gradient(230deg, #fdfbfb, #ebedee);
   background-repeat: no-repeat;
   background-position: center;
@@ -31,7 +31,8 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
-nav, section.section {
+nav,
+section.section {
   padding: 0 10vw;
   animation: fadeInUp 0.5s ease-in;
 }
@@ -40,9 +41,29 @@ canvas {
   position: absolute;
   overflow: hidden;
 }
-h1 {
-  font-size: 45px;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
 }
+p,
+label,
+span,
+a,
+li,
+button {
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+}
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+}
+
 h2 {
   font-size: 30px;
 }

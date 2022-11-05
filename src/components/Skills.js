@@ -34,7 +34,7 @@ function Skills() {
                   <h3 className="mb-4 text-xl font-semibold text-slate-900">
                     {skill.name}
                   </h3>
-                  <p className="mb-4 text-sm text-left font-medium text-slate-700">
+                  <p className="mb-4 text-sm text-center font-medium text-slate-700">
                     {skill.description}
                   </p>
                 </div>

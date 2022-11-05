@@ -8,7 +8,7 @@ function Stack() {
           <p className="py-4 text-sm font-thin text-slate-700">
             The web technologies I work with:
           </p>
-          <div className="grid grid-cols-12 gap-4 lg:gap-2 md:grid-cols-12 lg:grid-cols-9">
+          <div className="grid grid-cols-12 gap-4 lg:gap-2 md:grid-cols-12 lg:grid-cols-9 mx-auto">
             <div className="col-span-4 lg:col-span-1">
               <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-orange-500 to-orange-400 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-html5 fa-3x lg:fa-4x m-0 fa-inverse"></i>
@@ -149,17 +149,7 @@ function Stack() {
       
       brightness-[55%]"
       >
-        <video
-          autoplay="true"
-          muted="true"
-          loop="true"
-          className="w-full h-full"
-        >
-          <source
-            src="https://player.vimeo.com/external/368730818.sd.mp4?s=c3953421878536e1a7db904cae7dae03e7bfad19&amp;profile_id=164&amp;oauth2_token_id=57447761"
-            type="video/mp4"
-          ></source>
-        </video>
+        
       </div>  */}
     </>
   );

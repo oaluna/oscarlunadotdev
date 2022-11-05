@@ -13,13 +13,14 @@ function About() {
           </div>
           <div className="col-span-4 lg:col-span-5">
             {" "}
-            <h5 className="sub_title font-semibold text-slate-900">
+            
+            <h5 className="sub_title font-medium text-slate-900">
               Hello! I'm{" "}
             </h5>
-            <h4 className="main_title bg-clip-text text-transparent bg-gradient-to-tr from-orange-400 to-red-500 via-indigo-600 text-5xl font-extrabold">
+            <h4 className="main_title bg-clip-text text-transparent bg-gradient-to-tr from-orange-400 to-red-500 via-indigo-600 text-6xl font-extrabold">
               Oscar Luna
             </h4>
-            <p className="text-slate-900 font-semibold">
+            <p className="text-slate-900 font-medium">
               I create and deploy web applications using HTML, CSS, and
               JavaScript. I primarily work with React.JS and Node.js to deliver
               stunning, secure, and performative web applications to startups in

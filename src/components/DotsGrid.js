@@ -41,7 +41,6 @@ export default function DotsGrid() {
         
         <span className="absolute top-[5%] left-[85%] z-[-1] gradient-dot bg-gradient-to-bl from-white/[0.5] to-white/[0.01] via-white/[0.06] rounded-[50%] w-[40px] h-[40px] shadow-md shadow-slate-900/5 border-r-2 border-white/50"></span>
         <span className="absolute bottom-[12%] left-12 z-[-1] gradient-dot bg-gradient-to-tl from-white/[0.5] to-white/[0.01] via-white/[0.06] rounded-[50%] w-12 h-12 shadow-md shadow-slate-900/5 border-r-2 border-white/50"></span>
-        <span className="absolute top-40 left-96 z-[-1] gradient-dot bg-gradient-to-bl from-white/[0.5] to-white/[0.01] via-white/[0.06] rounded-[50%] w-96 h-96 shadow-md shadow-slate-900/5 border-r-2 border-white/50"></span>
        
         <span className="absolute top-64 left-8 z-[-1] gradient-dot bg-gradient-to-bl from-white/[0.5] to-white/[0.01] via-white/[0.06] rounded-[50%] w-[2px] h-[2px] shadow-md shadow-slate-900/5 border-r-2 border-white/50"></span>
       </span>

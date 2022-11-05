@@ -10,12 +10,24 @@ export default function App() {
         style={{
           backgroundColor: "hsla(0,100%,50%,1)",
           backgroundImage:
-            "radial-gradient(at 40% 20%,hsla(28, 100%, 74%, 1) 0px,transparent 50%),radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%)",
+            "url(https://zimed.vercel.app/assets/images/background/banner-bg-1-1.png)",
         }}
       ></canvas>
+      <video
+        autoplay="true"
+        muted="true"
+        loop="true"
+        speed="0.25"
+        className="absolute w-full h-full absolute bottom-0 top-0 md:top-[-25vh] \ left-0 w-[100vw] h-[100vh] transform origin-[0.08% 100%] skew-y-[-16deg] scale-[120%] overflow-hidden border-none mix-blend-color-dodge z-[-1]"
+      >
+        <source
+          src="https://player.vimeo.com/external/368730818.sd.mp4?s=c3953421878536e1a7db904cae7dae03e7bfad19&amp;profile_id=164&amp;oauth2_token_id=57447761"
+          type="video/mp4"
+        ></source>
+      </video>
       <NavBar />
 
-      <div className="snap-y snap-mandatory">
+      <div className="snap-y snap-mandatory z-1">
         {SECTION_DATA.map((section) => (
           <div className="snap-always snap-center">{section.component}</div>
         ))}
