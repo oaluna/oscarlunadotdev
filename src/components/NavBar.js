@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
           <nav
             aria-label="main navigation"
-            className="flex h-[5.5rem] items-stretch justify-between font-lg text-slate-700 font-bold"
+            className="flex h-[5.5rem] items-stretch justify-between font-lg text-slate-700 font-bolder"
             role="navigation"
           >
             {/*      <!-- Brand logo --> */}
@@ -17,7 +17,7 @@ const NavBar = () => {
               id="OscarLunaDotDev"
               aria-label="OscarLunaDotDev logo"
               aria-current="page"
-              className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
+              className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
               href="/"
             >
               <img
@@ -69,10 +69,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#hero"
                 >
-                  <span className="mix-blend-color-burn">Home</span>
+                  <h5 className="mix-blend-color-burn">Home</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -81,10 +81,10 @@ const NavBar = () => {
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#about"
                 >
-                  <span className="mix-blend-color-burn">About</span>
+                  <h5 className="mix-blend-color-burn">About</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -92,10 +92,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#experience"
                 >
-                  <span className="mix-blend-color-burn">Experience</span>
+                  <h5 className="mix-blend-color-burn">Experience</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -103,10 +103,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#skills"
                 >
-                  <span className="mix-blend-color-burn">Skills</span>
+                  <h5 className="mix-blend-color-burn">Skills</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -114,10 +114,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#projects"
                 >
-                  <span className="mix-blend-color-burn">Projects</span>
+                  <h5 className="mix-blend-color-burn">Projects</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -125,10 +125,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#testimonials"
                 >
-                  <span className="mix-blend-color-burn">Testimonials</span>
+                  <h5 className="mix-blend-color-burn">Testimonials</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -136,10 +136,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#blog"
                 >
-                  <span className="mix-blend-color-burn">Blog</span>
+                  <h5 className="mix-blend-color-burn">Blog</h5>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -147,10 +147,10 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bold py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
                   href="#contact"
                 >
-                  <span className="mix-blend-color-burn">Contact</span>
+                  <h5 className="mix-blend-color-burn">Contact</h5>
                 </a>
               </li>
             </ul>

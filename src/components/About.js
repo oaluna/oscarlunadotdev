@@ -1,8 +1,10 @@
 import React from "react";
+import FadeRecording from "../assets/fade-recording.mp4";
+
 function About() {
   return (
     <section className="section" id="about">
-      <div className="container px-1 lg:px-6 py-24 lg:py-32 m-auto">
+      <div className="container px-1 lg:px-6 py-22 lg:py-32 m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 lg:col-span-7">
             <img
@@ -13,13 +15,12 @@ function About() {
           </div>
           <div className="col-span-4 lg:col-span-5">
             {" "}
-            
-            <h5 className="sub_title font-medium text-slate-900">
+            <h5 className="sub_title text-slate-900">
               Hello! I'm{" "}
             </h5>
-            <h4 className="main_title bg-clip-text text-transparent bg-gradient-to-tr from-orange-400 to-red-500 via-indigo-600 text-6xl font-extrabold">
+            <h1 className="main_title text-[#BB2649] text-6xl font-regular uppercase">
               Oscar Luna
-            </h4>
+            </h1>
             <p className="text-slate-900 font-medium">
               I create and deploy web applications using HTML, CSS, and
               JavaScript. I primarily work with React.JS and Node.js to deliver
@@ -28,6 +29,15 @@ function About() {
               <br />I am in the process of expanding my services to larger
               companies that need optimized e-commerce solutions delivered.
             </p>
+          </div>
+          <div className="w-[30vw] h-[30vh] flex flex-column items-end ml-[45vw] mt-[-45vh]">
+            <video autoplay="true" muted="true" loop="true">
+              <source
+                
+                src={FadeRecording}
+                type="video/mp4"
+              />
+            </video>
           </div>
         </div>
       </div>
