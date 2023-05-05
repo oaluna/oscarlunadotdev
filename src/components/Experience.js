@@ -41,9 +41,10 @@ const Experience = () => (
               </figure>
               {/*  <!-- Body--> */}
               <div className="p-6">
-                <h3 className="mb-4 text-xl font-medium text-blue-900 bg-blend-color-burn">
-                  {job.role}
+                <h3 className="mb-4 text-xl font-medium text-blue-900 bg-blend-color-burn space-x-2">
+                  {job.role}{" "} 
                 </h3>
+								<p className="font-light text-blue-900 my-2">{job.time}</p>
                 <p className="text-blue-700 bg-blend-color-burn">
                   {job.description}
                 </p>

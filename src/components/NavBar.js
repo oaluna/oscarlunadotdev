@@ -6,18 +6,18 @@ const NavBar = () => {
   return (
     <>
       <header className="relative z-20 w-full bg-transparent after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full lg:after:hidden">
-        <div className="relative mx-auto max-w-full px-6 lg:max-w-5xl xl:max-w-7xl 2xl:max-w-[96rem]">
+        <div className="relative mx-auto max-w-screen">
           <nav
             aria-label="main navigation"
-            className="flex h-[5.5rem] items-stretch justify-between font-lg text-slate-700 font-bolder"
+            className="flex h-[5.5rem] items-center justify-between font-lg text-slate-700 font-bold w-full"
             role="navigation"
           >
-            {/*      <!-- Brand logo --> */}
+            
             <a
               id="OscarLunaDotDev"
               aria-label="OscarLunaDotDev logo"
               aria-current="page"
-              className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
+              className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
               href="/"
             >
               <img
@@ -26,7 +26,7 @@ const NavBar = () => {
                 alt="logo"
               />
             </a>
-            {/*      <!-- Mobile trigger --> */}
+          
             <button
               className={`relative order-10 block h-10 w-10 self-center z-10 lg:hidden 
                 ${
@@ -54,7 +54,7 @@ const NavBar = () => {
                 ></span>
               </div>
             </button>
-            {/*      <!-- Navigation links --> */}
+           
             <ul
               role="menubar"
               aria-label="Select page"
@@ -69,7 +69,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#hero"
                 >
                   <h5 className="mix-blend-color-burn">Home</h5>
@@ -81,7 +81,7 @@ const NavBar = () => {
                   aria-current="page"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold last:py-4 bg-transparent lg:px-4"
                   href="#about"
                 >
                   <h5 className="mix-blend-color-burn">About</h5>
@@ -92,7 +92,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#experience"
                 >
                   <h5 className="mix-blend-color-burn">Experience</h5>
@@ -103,7 +103,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#skills"
                 >
                   <h5 className="mix-blend-color-burn">Skills</h5>
@@ -114,7 +114,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#projects"
                 >
                   <h5 className="mix-blend-color-burn">Projects</h5>
@@ -125,7 +125,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#testimonials"
                 >
                   <h5 className="mix-blend-color-burn">Testimonials</h5>
@@ -136,7 +136,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#blog"
                 >
                   <h5 className="mix-blend-color-burn">Blog</h5>
@@ -147,7 +147,7 @@ const NavBar = () => {
                   role="menuitem"
                   aria-haspopup="false"
                   tabIndex="0"
-                  className="flex items-center gap-2 hover:text-sky-400 text-gray-900 font-bolder py-4 bg-transparent lg:px-4"
+                  className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#contact"
                 >
                   <h5 className="mix-blend-color-burn">Contact</h5>

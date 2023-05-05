@@ -1,60 +1,61 @@
 import React from "react";
+import mongoDBIcon from "../assets/mongodb.png";
 
 function Stack() {
   return (
     <>
       <section className="section snap-start">
-        <div className="container  px-1 lg:px-6 pb-32  m-auto">
+        <div className="container  px-1 lg:px-6 pb-32 mx-auto">
           <p className="py-4 text-sm font-thin text-slate-700">
             The web technologies I work with:
           </p>
-          <div className="grid grid-cols-12 gap-4 lg:gap-2 md:grid-cols-12 lg:grid-cols-9 mx-auto">
+          <div className="inline-flex flex-row space-x-1 w-[70vw] no-wrap items-center justify-between mx-auto">
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-orange-500 to-orange-400 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-orange-500/25 hover:shadow-orange-500/50 bg-gradient-to-tr from-orange-500 to-orange-400 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-html5 fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
 
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-blue-900 to-blue-700 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-blue-900/25 hover:shadow-blue-900/50 bg-gradient-to-tr from-blue-900 to-blue-700 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-css3 fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
               {" "}
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-cyan-600 to-cyan-300 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-cyan-600/25 hover:shadow-cyan-600/50 bg-gradient-to-tr from-cyan-600 to-cyan-300 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-react fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
               {" "}
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-pink-600 to-pink-400 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-pink-600/25 hover:shadow-pink-600/50 bg-gradient-to-tr from-pink-600 to-pink-400 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-sass fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-green-600 to-green-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-green-600/25 hover:shadow-green-600/50 bg-gradient-to-tr from-green-600 to-green-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-node-js fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-yellow-600 to-yellow-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-yellow-600/25 hover:shadow-yellow-600/50 bg-gradient-to-tr from-yellow-600 to-yellow-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-js fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-red-600 to-red-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-red-600/25 hover:shadow-red-600/50 bg-gradient-to-tr from-red-600 to-red-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap items-center justify-center">
                 <i className="stack-icon fa-brands fa-npm fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-black to-gray-900 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap items-center justify-center">
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-black/25 hover:shadow-black/50 bg-gradient-to-tr from-black to-gray-900 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap items-center justify-center">
                 <i className="stack-icon fa-brands fa-github fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>
             </div>
             <div className="col-span-4 lg:col-span-1">
-              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md bg-gradient-to-tr from-rose-600 to-rose-400 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap items-center justify-center">
-                <i className="stack-icon fa-brands fa-dribbble fa-3x lg:fa-4x m-0 fa-inverse"></i>
+              <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-green-800/25 hover:shadow-green-800/50 bg-gradient-to-tr from-green-800 to-green-500 sm:translate-x-12 md:translate-x-0 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap items-center justify-center">
+                <img src={mongoDBIcon} alt="mongoDB" className="m-0 p-6" />
               </div>
             </div>
           </div>
