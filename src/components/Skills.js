@@ -7,12 +7,12 @@ function Skills() {
       <div className="container  px-1 lg:px-6 pt-32 pb-12 m-auto">
         <div className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12">
           <div className="col-span-4 md:col-span-8 lg:col-span-12">
-            <h5 className="sub_title uppercase text-slate-700">Skills</h5>
-            <h3 className="main_title font-semibold text-slate-900 leading-8 pb-20">
+            <h1 className="sub_title text-[30vh] uppercase text-slate-900">Skills</h1>
+            <p className="main_title font-normal w-3/5 float-right text-[32px] lg:mr-[12vw] lg:mt-[-35vh] text-slate-900 leading-[1.2] pb-20">
               I'm a full-stack developer with expertise in building and
               deploying responsive and stunning MERN web applications. This
               means that my skills include:
-            </h3>
+            </p>
           </div>
         </div>
 

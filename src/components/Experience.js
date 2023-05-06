@@ -7,21 +7,21 @@ const Experience = () => (
     <div className="container  px-1 px-6 py-32 m-auto">
       <div className="grid grid-cols-4 gap-8 md:grid-cols-8 lg:grid-cols-12">
         <div className="col-span-4 md:col-span-8 lg:col-span-12">
-          <h5 className="sub_title uppercase text-slate-900">
+          <h1 className="sub_title text-[30vh] text-right uppercase text-slate-900">
             Work Experience
-          </h5>
-          <h3 className="main_title font-semibold text-slate-700 leading-8 pb-12">
+          </h1>
+          <h1 className="uppercase main_title text-[23.5vh] text-right font-medium text-[#bb2649] leading-8 pb-12">
             My Most Recent Jobs
-          </h3>
+          </h1>
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
+      <div className="flex flex-col items-start w-2/5 justify-start mt-[-55vh]">
         {EXPERIENCE_DATA.map((job) => (
           <div className="col-span-4">
             <div
               className="overflow-hidden text-center rounded  bg-zinc-200 shadow-sm shadow-slate-900/50
-            h-full"
+            h-full  scale-50 hover:scale-100 my-[-5vh] hover:transition-all hover:ease-in-out z-[-10] hover:z-10"
             >
               {/*  <!-- Icon --> */}
               <figure className="p-6 pb-0">
