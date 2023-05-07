@@ -5,12 +5,12 @@ function Stack() {
   return (
     <>
       <section className="section snap-start">
-        <div className="container  px-1 lg:px-6 pb-32 mx-auto">
-          <p className="py-4 text-sm font-thin text-slate-700">
+        <div className="container  px-1 lg:px-6 pb-32 mx-auto lg:mt-[70vh]">
+          <h1 className="my-24 text-sm font-thin text-slate-700 lg:text-[15vh] uppercase">
             The web technologies I work with:
-          </p>
-          <div className="inline-flex flex-row space-x-1 w-[70vw] no-wrap items-center justify-between mx-auto">
-            <div className="col-span-4 lg:col-span-1">
+          </h1>
+          <div className="inline-flex flex-row md:space-x-4 lg:space-x-1 lg:space-y-9 md:w-[70vw] lg:w-1/4 lg:flex-wrap md:no-wrap items-center lg:float-right lg:mt-[-30vh] justify-between mx-auto">
+            <div className="md:col-span-4 lg:col-span-1">
               <div className="w-16 h-16 lg:h-24 lg:w-24 shadow-md hover:shadow-xl shadow-orange-500/25 hover:shadow-orange-500/50 bg-gradient-to-tr from-orange-500 to-orange-400 rounded-2xl hover:scale-125 transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                 <i className="stack-icon fa-brands fa-html5 fa-3x lg:fa-4x m-0 fa-inverse"></i>
               </div>

@@ -93,7 +93,7 @@ export default function LayoutEvenColumnOne() {
                         }
                         className="peer relative rounded-md border border-slate-900 outline-none transition-all focus:border-slate-900 focus:outline-none text-md md:px-5 text-zinc-300 bg-slate-900 h-10 w-auto invalid:focus:border-pink-500 focus-visible:outline-none disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400"
                       >
-                        <i class="fa-solid fa-paper-plane"></i> Send
+                        <i className="fa-solid fa-paper-plane"></i> Send
                       </button>
                     </div>
                   </div>
