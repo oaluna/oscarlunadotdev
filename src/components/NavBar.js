@@ -72,7 +72,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#hero"
                 >
-                  <h5 className="mix-blend-color-burn">Home</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Home</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -84,7 +84,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold last:py-4 bg-transparent lg:px-4"
                   href="#about"
                 >
-                  <h5 className="mix-blend-color-burn">About</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">About</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -95,7 +95,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#experience"
                 >
-                  <h5 className="mix-blend-color-burn">Experience</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Experience</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -106,7 +106,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#skills"
                 >
-                  <h5 className="mix-blend-color-burn">Skills</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Skills</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -117,7 +117,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#projects"
                 >
-                  <h5 className="mix-blend-color-burn">Projects</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Projects</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -128,7 +128,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#testimonials"
                 >
-                  <h5 className="mix-blend-color-burn">Testimonials</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Testimonials</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -139,7 +139,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#blog"
                 >
-                  <h5 className="mix-blend-color-burn">Blog</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Blog</h1>
                 </a>
               </li>
               <li role="none" className="flex items-stretch">
@@ -150,7 +150,7 @@ const NavBar = () => {
                   className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold py-4 bg-transparent lg:px-4"
                   href="#contact"
                 >
-                  <h5 className="mix-blend-color-burn">Contact</h5>
+                  <h1 className="mix-blend-color-burn leading-none uppercase">Contact</h1>
                 </a>
               </li>
             </ul>

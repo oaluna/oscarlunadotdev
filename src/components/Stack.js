@@ -4,7 +4,7 @@ import mongoDBIcon from "../assets/mongodb.png";
 function Stack() {
   return (
     <>
-      <section className="section snap-start">
+      <section className="section snap-start h-[100vh]">
         <div className="container  px-1 lg:px-6 pb-32 mx-auto lg:mt-[70vh]">
           <h1 className="my-24 text-sm font-thin text-slate-700 lg:text-[15vh] uppercase">
             The web technologies I work with:
