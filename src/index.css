@@ -69,8 +69,12 @@ h1.hero {
 }
 img.heroImage {
 	animation: fadeInRight 0.75s ease-in;
-	-webkit-mask-image:linear-gradient(to bottom, rgba(255,255,255,1)75%, rgba(255,255,255,0) 90%)
+	-webkit-mask-image:linear-gradient(to bottom, rgba(255,255,255,1)75%, rgba(255,255,255,0) 95%);
 	
+}
+video.heroVideo {
+	-webkit-mask-image:linear-gradient(to bottom, rgba(255,255,255,1)50%, rgba(255,255,255,0) 100%);
+	opacity: 65%;
 }
 canvas {
   z-index: -1;

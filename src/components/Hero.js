@@ -5,6 +5,7 @@ import Fade from "react-reveal/Fade";
 
 const HeroImg =
   "https://res.cloudinary.com/dgdnpkfun/image/upload/v1666561255/removal.ai__tmp-6355b4b13902e_D8T3I5_chyzwv.png";
+const HeroVideo= "https://player.vimeo.com/video/321961958?title=0&amp;portrait=0&amp;byline=0&amp;autoplay=1&amp;muted=true"
 
 const Hero = () => {
   return (
@@ -20,22 +21,23 @@ const Hero = () => {
                   </h1>
                 </div>
               </Fade>
-                <div className="my-0 lg:mt-60 lg:ml-2">
-              <Fade right delay={0}>
+              <div className="my-0 lg:mt-60 lg:ml-2">
+                <Fade right delay={0}>
                   <h1 className="hero opacity-60 text-slate-900 text-[5vh] lg:text-[10vh] leading-none uppercase">
                     Full-Stack Developer
                   </h1>
                   <h1 className="hero text-slate-900 text-[5vh] lg:text-[10vh] leading-none uppercase">
                     San Francisco, CA
                   </h1>
-              </Fade>
-                </div>
+                </Fade>
+              </div>
               <Fade up delay={800}>
                 <div className="w-full lg:w-2/5 z-[-20] scale-75  h-full absolute left-auto lg:right-36 hidden md:flex lg:top-0">
                   <img src={HeroImg} alt="me" className="heroImage" />
                 </div>
               </Fade>
             </div>
+
             <a href="#about">
               <img
                 src={MouseIcon}
@@ -43,9 +45,11 @@ const Hero = () => {
                 className="w-16 h-16 mx-auto mt-36 mb-0 animate-bounce"
               />
             </a>
+
           </div>
         </div>
       </div>
+			<video autoPlay loop muted className="heroVideo absolute z-[-30] top-0 left-0"><source src="https://www.pexels.com/download/video/1994819/" type="video/mp4" /></video>
     </section>
   );
 };
