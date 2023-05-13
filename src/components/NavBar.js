@@ -8,7 +8,7 @@ const NavBar = () => {
       <header className="relative z-20 w-full bg-transparent after:absolute after:top-full after:left-0 after:z-10 after:block after:h-px after:w-full lg:after:hidden">
         <div className="relative mx-auto max-w-screen">
           <nav
-            aria-label="main navigation"
+					aria-label="main navigation"
             className="flex h-[5.5rem] items-center justify-between font-lg text-slate-700 font-bold w-full"
             role="navigation"
           >

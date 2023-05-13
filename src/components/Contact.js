@@ -17,7 +17,7 @@ export default function LayoutEvenColumnOne() {
     <section className="section snap-start" id="contact">
       <div className="container  px-1 lg:px-6 py-24 lg:py-32 m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
-          <div className="h-[55vh] col-span-4 md:col-span-8 lg:col-span-12 bg-[url(https://zimed.vercel.app/assets/images/background/banner-bg-1-1.png)] bg-cover rounded-xl p-8 shadow-xl shadow-zinc-900/20">
+          <div className="h-[55vh] col-span-4 md:col-span-8 lg:col-span-12 bg-[url(https://zimed.vercel.app/assets/images/background/banner-bg-1-1.png)] bg-cover rounded-xl p-8 shadow-xl shadow-zinc-900/20 bg-blend-color-dodge">
             <div className="container px-1 lg:px-6 m-auto">
               <div className="grid grid-cols-4 gap-0 lg:gap-6 md:grid-cols-8 lg:grid-cols-12">
                 <div className="col-span-4 lg:col-span-6 my-auto">
