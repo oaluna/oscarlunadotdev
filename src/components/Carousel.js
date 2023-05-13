@@ -14,7 +14,7 @@ const CarouselComponent = () => {
 		<div className="carousel">
 				<div
   id="carouselExampleCaptions"
-  className="absolute w-screen p-0 mx-0 object-cover"
+  className="absolute w-full p-0 mx-0 object-cover"
   data-te-carousel-init
   data-te-carousel-slide>
   {/* <!--Carousel indicators--> */}
@@ -51,7 +51,7 @@ const CarouselComponent = () => {
 
   {/* <!--Carousel items--> */}
   <div
-    className="relative w-96 ml-0 mt-12  z-[-10] overflow-hidden after:clear-both after:block after:content-[''] ">
+    className="relative lg:w-[60vw] ml-0 lg:ml-[20vw] lg:mt-[-20vh]  z-[-10] overflow-hidden after:clear-both after:block after:content-[''] ">
     {/* <!--First item--> */}
     <div
       className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -63,9 +63,9 @@ const CarouselComponent = () => {
         className="block w-full"
         alt="..." />
       <div
-        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-white md:block bg-gradient-to-tr from-[#bb2649]/20 to-[#bb2649]/25 backdrop-blur-sm">
+        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-slate-50 md:block bg-gradient-to-tr from-slate-500 to-gray-500 shadow-lg shadow-blue-900/50 backdrop-blur-sm">
         <h1 className="text-[5vh] text-[#bb2649]">Fade - Bay Area Carpooling</h1>
-        <p className="text-white font-bold">
+        <p className="text-slate-50 font-bold">
           A pet project of mine that provides a means for bay area workers to help each other get to work on time by organizing regular carpooling via itinerary matching.
         </p>
       </div>
@@ -80,9 +80,9 @@ const CarouselComponent = () => {
         className="block w-full"
         alt="..." />
       <div
-        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-white md:block bg-gradient-to-tr from-[#bb2649]/20 to-[#bb2649]/25 backdrop-blur-sm">
+        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-slate-50 md:block bg-gradient-to-tr from-slate-500 to-gray-500 shadow-lg shadow-blue-900/50 backdrop-blur-sm">
         <h1 className="text-[5vh] text-[#bb2649]">Glowing Flowers | Plants & Gifts</h1>
-        <p className="text-white font-bold">
+        <p className="text-slate-50 font-bold">
 				An e-commerce web application for a local business. Users can store desired items in a cart that can be accessed at a future session thanks to the use of Redux Persist.
         </p>
       </div>
@@ -97,9 +97,9 @@ const CarouselComponent = () => {
         className="block w-full"
         alt="..." />
       <div
-        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-white md:block bg-gradient-to-tr from-[#bb2649]/20 to-[#bb2649]/25 backdrop-blur-sm">
+        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-slate-50 md:block bg-gradient-to-tr from-slate-500 to-gray-500 shadow-lg shadow-blue-900/50 backdrop-blur-sm">
         <h1 className="text-[5vh] text-[#bb2649]">Landing Page Template - For sale on GumRoad.io</h1>
-        <p className="text-white font-bold">
+        <p className="text-slate-50 font-bold">
 				A landing page that uses tailwindcss and ReactJS to provide other developers with a template that will save them hours of researching web designs for their clients.
         </p>
       </div>
@@ -114,9 +114,9 @@ const CarouselComponent = () => {
         className="block w-full"
         alt="..." />
       <div
-        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-white md:block bg-gradient-to-tr from-[#bb2649]/20 to-[#bb2649]/25 backdrop-blur-sm">
+        className="absolute inset-x-[15%] p-12 bottom-5 hidden py-5 text-center text-slate-50 md:block bg-gradient-to-tr from-slate-500 to-gray-500 shadow-lg shadow-blue-900/50 backdrop-blur-sm">
         <h1 className="text-[5vh] text-[#bb2649]">Globomantics - Real Estate App</h1>
-        <p className="text-white font-bold">
+        <p className="text-slate-50 font-bold">
 				A landing page for a real-estate company where users can search listings as well as filter search results by price range and by location.
         </p>
       </div>

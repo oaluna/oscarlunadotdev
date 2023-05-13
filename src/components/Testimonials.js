@@ -21,7 +21,7 @@ function Testimonials() {
           </div>
         </div>
 
-        <div className="overflow-hidden rounded shadow-2xl bg-[url(https://zimed.vercel.app/assets/images/background/banner-bg-1-1.png)] bg-cover text-slate-100 shadow-zinc-200">
+        <div className="overflow-hidden rounded shadow-2xl  bg-cover text-slate-100 shadow-zinc-200 bg-gradient-to-tr from-[#44000b] to-[#bb2649]">
           <div className="relative p-6">
             <figure className="relative z-10">
               <blockquote className="p-6 text-2xl leading-relaxed">
