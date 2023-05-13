@@ -9,9 +9,9 @@ function About() {
           <Fade up>
             <div className="flex items-center w-full lg:w-3/5 lg:ml-[30vw] z-[-20]">
               <video
-                autoplay="true"
-                muted="true"
-                loop="true"
+                autoPlay={true}
+                muted={true}
+                loop={true}
                 className="h-auto p-12"
                 style={{ clipPath: "inset(10% 0 10% 0)" }}
               >

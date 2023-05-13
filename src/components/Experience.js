@@ -1,11 +1,13 @@
 import React from "react";
 import AltLogo from "./AltLogo";
 import { EXPERIENCE_DATA } from "../data/experienceData";
+import Fade from "react-reveal/Fade"
 
 const Experience = () => (
   <section className="section snap-start lg:my-[32vh]" id="experience">
     <div className="my-32 lg:flex lg:flex-row">
       <div className="grid grid-cols-4">
+			<Fade right>
         <div className="col-span-4 md:col-span-8 lg:col-span-12 leading-none lg:ml-5 lg:text-right">
           <h1 className="lg:ml-[45vw] text-[10vh] lg:text-[20vh] leading-none uppercase text-slate-900">
             Work Experience
@@ -14,9 +16,11 @@ const Experience = () => (
             My Most Recent Jobs
           </h1>
         </div>
+				</Fade>
       </div>
 
       <div className="flex flex-col items-start justify-evenly w-full h-auto lg:absolute lg:left-[-10vw]">
+			<Fade left>
         {EXPERIENCE_DATA.map((job) => (
           <div className="lg:w-[55vw] lg:ml-44 my-[8vh] lg:mt-0">
             <div
@@ -51,6 +55,7 @@ const Experience = () => (
             </div>
           </div>
         ))}
+				</Fade>
       </div>
     </div>
   </section>

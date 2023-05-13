@@ -1,10 +1,12 @@
 import React from "react";
 import mongoDBIcon from "../assets/mongodb.png";
+import Fade from "react-reveal/Fade";
 
 function Stack() {
   return (
     <>
       <section className="section snap-start w-full h-[100vh] relative my-[24vh]">
+			<Fade right>
         <div className="container  px-1 mx-auto">
           <h1 className="my-24 text-[15vh] sm:text-[10vh] font-thin text-slate-700 leading-none">
             The web technologies I work with:
@@ -60,6 +62,7 @@ function Stack() {
             </div>
           </div>
         </div>
+				</Fade>
       </section>
      
     </>

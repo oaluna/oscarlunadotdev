@@ -5,7 +5,8 @@ import Fade from "react-reveal/Fade";
 
 const HeroImg =
   "https://res.cloudinary.com/dgdnpkfun/image/upload/v1666561255/removal.ai__tmp-6355b4b13902e_D8T3I5_chyzwv.png";
-const HeroVideo= "https://player.vimeo.com/video/321961958?title=0&amp;portrait=0&amp;byline=0&amp;autoplay=1&amp;muted=true"
+const HeroVideo =
+  "https://player.vimeo.com/video/321961958?title=0&amp;portrait=0&amp;byline=0&amp;autoplay=1&amp;muted=true";
 
 const Hero = () => {
   return (
@@ -45,11 +46,20 @@ const Hero = () => {
                 className="w-16 h-16 mx-auto mt-36 mb-0 animate-bounce"
               />
             </a>
-
           </div>
         </div>
       </div>
-			<video autoPlay loop muted className="heroVideo absolute z-[-30] top-0 left-0"><source src="https://www.pexels.com/download/video/1994819/" type="video/mp4" /></video>
+      <video
+        autoPlay={true}
+        loop={true}
+        muted={true}
+        className="heroVideo absolute z-[-30] top-[0vh] left-[0vw] w-[100vw]"
+      >
+        <source
+          src="https://player.vimeo.com/progressive_redirect/playback/777161632/rendition/360p/file.mp4?loc=external&amp;oauth2_token_id=57447761&amp;signature=718da4aee33890a80acbfe90b52ffbd4afcf36ab83c05a6a5da8ce66dd8dae3b"
+          type="video/mp4"
+        />
+      </video>
     </section>
   );
 };

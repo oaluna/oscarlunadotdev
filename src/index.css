@@ -75,6 +75,10 @@ img.heroImage {
 video.heroVideo {
 	-webkit-mask-image:linear-gradient(to bottom, rgba(255,255,255,1)50%, rgba(255,255,255,0) 100%);
 	opacity: 65%;
+	padding:0;
+	margin:0;
+	width:100vw;
+	position:absolute;
 }
 canvas {
   z-index: -1;
