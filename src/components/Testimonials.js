@@ -1,10 +1,12 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 
 function Testimonials() {
   return (
-    <section className="section snap-start" id="testimonials">
-      <div className="container  px-6 lg:mt-[65vh] m-auto">
+    <section className="section snap-start relative" id="testimonials">
+      <div className="container  px-6 mt-96 lg:mt-[65vh] m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
+				<Fade right>
           <div className="col-span-4 md:col-span-8 lg:col-span-12">
             <h1 className="sub_title uppercase text-[#bb2649] lg:text-[20vh] text-[10vh]">Testimonials</h1>
             <p className="main_title font-medium text-[20px] text-slate-900 leading-8 pb-12">
@@ -19,8 +21,9 @@ function Testimonials() {
               to hire me on UpWork.
             </p>
           </div>
+					</Fade>
         </div>
-
+<Fade left>
         <div className="overflow-hidden rounded shadow-2xl  bg-cover text-slate-100 shadow-zinc-200 bg-gradient-to-tr from-[#44000b] to-[#bb2649]">
           <div className="relative p-6">
             <figure className="relative z-10">
@@ -52,6 +55,7 @@ function Testimonials() {
             </svg>
           </div>
         </div>
+				</Fade>
       </div>
     </section>
   );

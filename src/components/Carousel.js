@@ -186,7 +186,7 @@ const CarouselComponent = () => {
 
         {/* <!--Carousel controls - prev item--> */}
         <button
-          className="z-30 absolute lg:left-[40vw] lg:top-72 flex w-[15%] items-center border-0 bg-none p-0 text-center text-[#bb2649] transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-[#bb2649] hover:no-underline hover:opacity-90 hover:outline-none focus:text-[#bb2649] focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none hover:animate-bounce"
+          className="z-30 absolute left-0 lg:left-[40vw] top-12 lg:top-72 flex w-[15%] items-center border-0 bg-none p-0 text-center text-[#bb2649] transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-[#bb2649] hover:no-underline hover:opacity-90 hover:outline-none focus:text-[#bb2649] focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none hover:animate-bounce"
           type="button"
           data-te-target="#carouselExampleCaptions"
           data-te-slide="prev"
@@ -213,7 +213,7 @@ const CarouselComponent = () => {
         </button>
         {/* <!--Carousel controls - next item--> */}
         <button
-          className="w-30 absolute lg:-right-64 lg:top-72 flex w-[15%] items-center border-0 bg-none p-0 text-center text-[#bb2649] transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-[#bb2649] hover:no-underline hover:opacity-90 hover:outline-none focus:text-[#bb2649] focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none hover:animate-bounce"
+          className="w-30 absolute right-0 lg:-right-64 top-12 lg:top-72 flex w-[15%] items-center border-0 bg-none mx-0 p-0 text-center text-[#bb2649] transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-[#bb2649] hover:no-underline hover:opacity-90 hover:outline-none focus:text-[#bb2649] focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none hover:animate-bounce"
           type="button"
           data-te-target="#carouselExampleCaptions"
           data-te-slide="next"

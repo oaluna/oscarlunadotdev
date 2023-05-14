@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Fade from "react-reveal/Fade";
 
 export default function Blog() {
   const [mediumData, setMediumData] = useState([]);
@@ -20,8 +21,9 @@ export default function Blog() {
     <section className="section snap-start" id="blog">
       <div className="container  px-1 lg:px-6 py-32 m-auto">
         <div className="grid grid-cols-4 gap-8 md:grid-cols-8 lg:grid-cols-12">
+				<Fade down>
           <div className="col-span-4 md:col-span-8 lg:col-span-12">
-            <h1 className="sub_title uppercase text-[#bb2649]">Blog</h1>
+            <h1 className="sub_title uppercase text-[#bb2649] text-[10vh] lg:text-[20vh]">Blog</h1>
             <p className="main_title font-medium text-[20px] text-slate-900 leading-8 pb-12">
               My most recent blog posts. Click{" "}
               <a href="https://medium.com/@oaluna" className="text-sky-400">
@@ -31,11 +33,13 @@ export default function Blog() {
               to read more.
             </p>
           </div>
+					</Fade>
         </div>
 
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           {finalData.map((article) => (
             <>
+				<Fade up cascade>
               <div key={article.id} className="col-span-4">
                 <div className="overflow-hidden h-full bg-zinc-200 rounded shadow-md text-slate-700 shadow-zinc-900/20">
                   <img
@@ -79,6 +83,7 @@ export default function Blog() {
                   </div>
                 </div>
               </div>
+					</Fade>
             </>
           ))}
         </div>

@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 
 function Skills() {
   return (
-    <section className="section snap-start" id="skills">
+    <section className="section snap-start relative" id="skills">
       <div className="container  px-1 lg:px-6 py-64 m-auto">
         <div className="grid sm:grid-cols-12 md:grid-cols-8 lg:grid-cols-6">
           <Fade down>
