@@ -5,7 +5,7 @@ import Fade from "react-reveal/Fade";
 function Stack() {
   return (
     <>
-      <section className="section snap-start w-full h-[100vh] relative my-[24vh]">
+      <section className="section snap-start w-full md:h-auto h-[100vh] relative my-[24vh] md:mt-[42vh]">
 			<Fade right>
         <div className="container px-1 mx-auto">
           <h1 className="my-24 lg:text-[15vh] text-[10vh] font-thin text-slate-700 leading-none">

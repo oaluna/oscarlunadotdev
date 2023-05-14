@@ -20,7 +20,7 @@ function About() {
             </div>
           </Fade>
           <Fade left>
-            <div className="mt-[-26vh] z-[10] relative ml-12 lg:pl-36 pr-24">
+            <div className="md:mt-[-20vh] lg:mt-[-26vh] z-[10] relative ml-12 lg:pl-36 pr-24">
               <div className="m-0">
                 <p className="font-medium text-[24px] text-slate-900">I'm a</p>
               </div>

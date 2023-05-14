@@ -25,7 +25,7 @@ const Experience = () => (
           <div className="lg:w-[55vw] lg:ml-44 my-[8vh] lg:mt-0">
             <div
               className="overflow-hidden text-center rounded  bg-zinc-200 shadow-sm shadow-slate-900/50
-            h-full md:scale-60  lg:scale-50 hover:scale-75 my-[-10vh] hover:transition-all hover:ease-in-out z-[0] hover:z-20"
+            h-full md:scale-[.6]  lg:scale-50 hover:scale-75 my-[-10vh] hover:transition-all hover:ease-in-out z-[0] hover:z-20"
             >
               <figure className="p-6 pb-0">
                 {job.logo ? (

@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade";
 function Testimonials() {
   return (
     <section className="section snap-start relative" id="testimonials">
-      <div className="container  px-6 mt-96 lg:mt-[65vh] m-auto">
+      <div className="container  px-6 mt-96 md:mt-[45vh] lg:mt-[65vh] m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
 				<Fade right>
           <div className="col-span-4 md:col-span-8 lg:col-span-12">
