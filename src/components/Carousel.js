@@ -52,7 +52,7 @@ const CarouselComponent = () => {
         </div>
 
         {/* <!--Carousel items--> */}
-        <div className="relative lg:w-[40vw] ml-0 lg:ml-[40vw] lg:mt-[10vh] lg:mb-[5vh] overflow-hidden after:clear-both after:block after:content-[''] ">
+        <div className="relative lg:w-[40vw] ml-0 lg:ml-[40vw] lg:mt-[0vh] lg:mb-[5vh] overflow-hidden after:clear-both after:block after:content-[''] ">
           {/* <!--First item--> */}
           <div
             className="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
@@ -154,8 +154,8 @@ const CarouselComponent = () => {
         </div>
         <div
           className="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
-          data-te-carousel-item
-          style={{ backfaceVisibility: "hidden" }}
+            data-te-carousel-item
+            style={{ backfaceVisibility: "hidden" }}
         >
           <img
             src="https://res.cloudinary.com/dgdnpkfun/image/upload/v1617817991/oscarlunadotdev/globoMantics.png"
@@ -213,7 +213,7 @@ const CarouselComponent = () => {
         </button>
         {/* <!--Carousel controls - next item--> */}
         <button
-          className="w-30 absolute right-0 lg:-right-64 top-12 lg:top-72 flex w-[15%] items-center border-0 bg-none mx-0 p-0 text-center text-[#bb2649] transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-[#bb2649] hover:no-underline hover:opacity-90 hover:outline-none focus:text-[#bb2649] focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none hover:animate-bounce"
+          className="w-30 absolute right-0 lg:-right-48 top-12 lg:top-72 flex w-[15%] items-center border-0 bg-none mx-0 p-0 text-center text-[#bb2649] transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-[#bb2649] hover:no-underline hover:opacity-90 hover:outline-none focus:text-[#bb2649] focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none hover:animate-bounce"
           type="button"
           data-te-target="#carouselExampleCaptions"
           data-te-slide="next"

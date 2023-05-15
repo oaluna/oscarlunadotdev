@@ -3,7 +3,18 @@ import AltLogo from "./AltLogo";
 import { EXPERIENCE_DATA } from "../data/experienceData";
 import Fade from "react-reveal/Fade"
 
-const Experience = () => (
+const Experience = () => {
+// 	const targets = document.querySelectorAll(".js-show-on-scroll");
+
+// const observer = new IntersectionObserver(callback);
+
+// targets.forEach(function(target) {
+
+//   target.classList.add("opacity-0");
+
+//   observer.observe(target);
+// });
+	return (
   <section className="section snap-start lg:my-[32vh]" id="experience">
     <div className="my-32 lg:flex lg:flex-row">
       <div className="grid grid-cols-4">
@@ -59,6 +70,6 @@ const Experience = () => (
       </div>
     </div>
   </section>
-);
+)};
 
 export default Experience;

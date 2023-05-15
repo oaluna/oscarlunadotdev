@@ -4,11 +4,11 @@ import Fade from "react-reveal/Fade";
 function Testimonials() {
   return (
     <section className="section snap-start relative" id="testimonials">
-      <div className="container  px-6 mt-96 md:mt-[45vh] lg:mt-[65vh] m-auto">
+      <div className="mt-96 md:mt-[45vh] lg:my-56 w-full">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
 				<Fade right>
           <div className="col-span-4 md:col-span-8 lg:col-span-12">
-            <h1 className="sub_title uppercase text-[#bb2649] lg:text-[20vh] text-[10vh]">Testimonials</h1>
+            <h1 className="uppercase text-[#bb2649] lg:text-[20vh] text-[10vh]">Testimonials</h1>
             <p className="main_title font-medium text-[20px] text-slate-900 leading-8 pb-12">
               What my freelance clients have to say about my work. Click{" "}
               <a
