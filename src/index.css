@@ -9,10 +9,7 @@ html {
 }
 body {
   background: #f1ede1;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
+  transition: background-color 0.2s ease-in-out;
   overflow-x: hidden !important;
   max-width: 100vw;
   color: white !important;
@@ -213,7 +210,7 @@ html.has-scroll-dragging {
 
 @layer components {
   body {
-    @apply font-sans bg-white;
+    @apply bg-white;
   }
   html :where(a) {
     @apply text-slate hover:text-slate-800;
@@ -270,7 +267,8 @@ html.has-scroll-dragging {
     @apply text-xl;
   }
   .display-1 {
-    @apply text-[calc(1.625rem+4.5vw)] lg:text-[5rem] leading-[1.2] font-light;
+    @apply text-[calc(1.625rem+4.5vw)] lg:text-[5rem] leading-[1.2] 
+		light;
   }
   .display-2 {
     @apply text-[calc(1.575rem+3.9vw)] lg:text-[4.5rem] leading-[1.2] font-light;

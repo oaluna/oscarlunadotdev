@@ -14,7 +14,10 @@ export default function LayoutEvenColumnOne() {
     });
   };
   return (
-    <section className="section snap-start" id="contact">
+    <section
+      className="section transition sub-section  snap-start"
+      id="contact"
+    >
       <div className="container  lg:px-6 py-36 lg:py-48 m-auto">
         <div className="grid grid-cols-4 gap-6 md:grid-cols-8 lg:grid-cols-12">
           <div className="h-[85vh] md:h-[30vh] lg:h-[55vh] col-span-4 md:col-span-8 lg:col-span-12 bg-gradient-to-tr from-[#44000b] to-[#bb2649] bg-cover rounded-xl my-24 p-4 lg:p-8 shadow-xl shadow-zinc-900/20 bg-blend-color-dodge">

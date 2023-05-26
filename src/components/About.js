@@ -3,7 +3,7 @@ import FadeRecording from "../assets/fade-recording.mp4";
 import Fade from "react-reveal/Fade";
 function About() {
   return (
-    <section className="w-screen lg:px-[3vw]  mt-32" id="about">
+    <section className="w-screen lg:px-[3vw] mt-32 transition sub-section" id="about">
       <div className="flex no-wrap">
         <div className="pt-[3rem]">
           <Fade up>

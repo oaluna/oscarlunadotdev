@@ -4,8 +4,12 @@ import Fade from "react-reveal/Fade";
 
 function Skills() {
   return (
-    <section className="section snap-start relative" id="skills">
-      <div className="container  px-1 lg:px-6 md:py-0 lg:py-64 m-auto ">
+    <section
+      className="section transition sub-section  snap-start relative"
+      id="skills"
+      data-scroll-section
+    >
+      <div className="container  px-1 lg:px-6 md:py-0 lg:py-[65vh] m-auto ">
         <div className="grid sm:grid-cols-12 md:grid-cols-8 lg:grid-cols-6">
           <Fade down>
             <div className="col-span-3 md:col-span-4 lg:col-span-6">

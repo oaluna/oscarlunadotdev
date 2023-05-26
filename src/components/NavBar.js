@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="relative mx-auto max-w-screen">
           <nav
 					aria-label="main navigation"
-            className="flex h-[5.5rem] items-center justify-between font-lg text-slate-700 font-bold w-full"
+            className="flex h-[5.5rem] items-center justify-between text-3xl text-slate-700 font-bold w-full"
             role="navigation"
           >
             
@@ -17,7 +17,7 @@ const NavBar = () => {
               id="OscarLunaDotDev"
               aria-label="OscarLunaDotDev logo"
               aria-current="page"
-              className="flex items-center gap-2 hover:text-[#bb2649] text-slate-900 font-bold whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
+              className="flex items-center gap-2 hover:text-[#bb2649] whitespace-nowrap p3 text-4g focus:outline-none lg:flex-1"
               href="/"
             >
               <img
