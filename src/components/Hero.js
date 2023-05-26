@@ -16,13 +16,8 @@ const Hero = () => {
           <div className="mt-0 lg:mt-24 ml-0">
             <div className="gap-0 w-full z-2 md:mx-12 flex-shrink-1 lg:flex lg:flex-row">
               <Fade left delay={0}>
-<<<<<<< HEAD
-                <div className="flex-[0 0 31vw] flex-row mt-56 lg:ml-48">
-                  <h1 className="hero text-[#bb2649] text-[10vh] md:text-[10vh] lg:text-[24vh] leading-none uppercase">
-=======
                 <div className="flex-[0 0 31vw] flex-row mt-56 lg:ml-36">
                   <h1 className="hero text-[#bb2649] text-[10vh] md:text-[10vh] lg:text-[20vh] leading-none uppercase">
->>>>>>> parent of 960f462 (Debugging carousel)
                     Oscar Armando Luna
                   </h1>
                 </div>

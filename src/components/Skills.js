@@ -1,6 +1,7 @@
 import React from "react";
 import SKILLS_DATA from "../data/skillsData";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 function Skills() {
   return (
@@ -28,6 +29,7 @@ function Skills() {
         <div className="w-full md:w-3/5 lg:w-1/2 border-box direction-ltr flex flex-row flex-wrap md:float-right md:mt-[-32vh] lg:mt-[-48vh] md:mr-[-10vw] lg:ml-24 m-0 p-0">
           {SKILLS_DATA.map((skill) => (
             <Fade up cascade>
+						<Link to="/skill">
               <div
                 key={skill.id}
                 className="bg-[#bb2649] w-full md:w-48 md:h-52 lg:w-56 h-42 m-2 px-3 p-8 rounded-tr-[25%] shadow-md hover:shadow-xl"
@@ -48,6 +50,7 @@ function Skills() {
                   </h3>
                 </div>
               </div>
+							</Link>
             </Fade>
           ))}
         </div>

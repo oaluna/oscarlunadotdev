@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 function Stack() {
   return (
     <>
-<<<<<<< HEAD
       <section className="section transition sub-section  snap-start w-full md:h-auto h-[100vh] relative my-[24vh] md:mt-[42vh] lg:mt-[0vh]">
         <Fade right>
           <div className="container px-1 mx-auto">
@@ -17,19 +16,6 @@ function Stack() {
                 <div className="w-16 h-16 lg:h-32 lg:w-32 shadow-md hover:shadow-xl shadow-orange-500/25 hover:shadow-orange-500/50 bg-gradient-to-tr from-orange-500 to-orange-400 rounded-full hover:scale-125 hover:animate-bounce transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
                   <i className="stack-icon fa-brands fa-html5 fa-3x lg:fa-4x m-0 fa-inverse"></i>
                 </div>
-=======
-      <section className="section snap-start w-full md:h-auto h-[100vh] relative my-[24vh] md:mt-[42vh]">
-			<Fade right>
-        <div className="container px-1 mx-auto">
-          <h1 className="my-24 lg:text-[15vh] text-[10vh] font-thin text-slate-700 leading-none">
-            The web technologies I work with:
-          </h1>
-          <div className="float-right flex flex-row flex-wrap justify-evenly w-auto lg:w-3/4 text-center">
-
-            <div className="col-span-4 m-4 lg:m-12">
-              <div className="w-16 h-16 lg:h-32 lg:w-32 shadow-md hover:shadow-xl shadow-orange-500/25 hover:shadow-orange-500/50 bg-gradient-to-tr from-orange-500 to-orange-400 rounded-full hover:scale-125 hover:animate-bounce transition-all ease-out cursor-pointer duration-200 flex flex-col flex-wrap  items-center justify-center">
-                <i className="stack-icon fa-brands fa-html5 fa-3x lg:fa-4x m-0 fa-inverse"></i>
->>>>>>> parent of 960f462 (Debugging carousel)
               </div>
 
               <div className="col-span-4 m-4 lg:m-12">

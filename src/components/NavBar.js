@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="relative mx-auto max-w-screen">
           <nav
 					aria-label="main navigation"
-            className="flex h-[5.5rem] items-center justify-between text-xl text-slate-700 font-bold w-full"
+            className="flex h-[5.5rem] items-center justify-between text-3xl text-slate-700 font-bold w-full"
             role="navigation"
           >
             
