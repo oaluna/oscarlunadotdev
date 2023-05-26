@@ -9,7 +9,7 @@ const NavBar = () => {
         <div className="relative mx-auto max-w-screen">
           <nav
 					aria-label="main navigation"
-            className="flex h-[5.5rem] items-center justify-between text-3xl text-slate-700 font-bold w-full"
+            className="flex h-[5.5rem] items-center justify-between text-xl text-slate-700 font-bold w-full"
             role="navigation"
           >
             
@@ -58,7 +58,7 @@ const NavBar = () => {
             <ul
               role="menubar"
               aria-label="Select page"
-              className={`absolute top-0 left-0 z-0 h-[28.5rem] w-full h-screen justify-center overflow-hidden overflow-y-auto overscroll-contain px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
+              className={`absolute top-0 left-0 z-0 =w-full h-screen justify-center overflow-hidden overflow-y-auto overscroll-contain px-8 pb-12 pt-24 font-medium transition-[opacity,visibility] duration-300 lg:visible lg:relative lg:top-0  lg:z-0 lg:flex lg:h-full lg:w-auto lg:items-stretch lg:overflow-visible lg:px-0 lg:py-0  lg:pt-0 lg:opacity-100 ${
                 isToggleOpen
                   ? "visible opacity-100 backdrop-blur-lg"
                   : "invisible opacity-0"
