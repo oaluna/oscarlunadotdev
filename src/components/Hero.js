@@ -53,7 +53,7 @@ const Hero = () => {
         autoPlay={true}
         loop={true}
         muted={true}
-        className="heroVideo absolute z-[-30] top-[0vh] left-[0vw] w-[100vw]"
+        className="heroVideo absolute z-[-30] top-[0vh] left-[0vw] w-[100vw] h-[100vh] md:h-[60vh]"
       >
         <source
           src="https://player.vimeo.com/progressive_redirect/playback/777161632/rendition/360p/file.mp4?loc=external&amp;oauth2_token_id=57447761&amp;signature=718da4aee33890a80acbfe90b52ffbd4afcf36ab83c05a6a5da8ce66dd8dae3b"
