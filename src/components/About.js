@@ -42,9 +42,11 @@ function About() {
                 </p>
               </div>
               <div>
+                <a href="#contact">
                 <button className="bg-slate-900 w-2/3 text-slate-50 mt-5 p-5 font-bold rounded-br-full shadow-sm hover:shadow-xl hover:animate-bounce">
                   Learn More <i className="fa-solid fa-arrow-right" />
                 </button>
+                </a>
               </div>
             </div>
           </Fade>
